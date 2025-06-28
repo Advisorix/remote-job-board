@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Work From Home - USA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f8ff;
+    }
+    .container {
+      max-width: 750px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #002b5c;
+    }
+    .cta-button {
+      display: inline-block;
+      background: #007bff;
+      color: #fff;
+      padding: 14px 24px;
+      border-radius: 8px;
+      font-size: 1rem;
+      text-decoration: none;
+      margin: 20px 0;
+    }
+    .cta-button:hover {
+      background: #0056b3;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    .countdown {
+      font-size: 1.2rem;
+      color: red;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.85rem;
+      margin-top: 40px;
+      color: #555;
+    }
+    .footer a {
+      color: #007bff;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🏠 Start Working from Home Today!</h1>
+    <p>No experience required. Flexible hours. Weekly payouts.</p>
+
+    <img src="https://dl.dropboxusercontent.com/scl/fi/v17ql46r4ttrq8o2aw16u/0001_3_a-happy-young-woman-working-from-home-wi_dF5NJ7iMTd-CeS7IvQ5Kfw_M-CT6pKSQ-edrdwNw_ICHw.jpeg?rlkey=r88707grer7zvxby96lke117c" alt="Work from home woman">
+
+    <div class="countdown">⏳ Hurry! Offer expires in <span id="timer">05:00</span></div>
+
+    <a class="cta-button" href="https://click2daff.com/click?o=3758&p=4918" target="_blank">👉 Sign Up & Start Working</a>
+
+    <h2>Real People. Real Earnings.</h2>
+    <img src="https://dl.dropboxusercontent.com/scl/fi/2p6dqebpf4yloaijw2eus/0002_4_three-diverse-people-smiling-with-thumbs_apYFiDpHQoGJnPidKiqdyg_236393oUT_mzcpfjm3x5Bg.jpeg?rlkey=pear8puh69n32m6sacd2ge6cb" alt="Happy users">
+
+    <blockquote>"I started earning from Day 1 — this actually works!" — Maria T.</blockquote>
+
+    <h2>Just 3 Simple Steps:</h2>
+    <img src="https://dl.dropboxusercontent.com/scl/fi/uxt9ucoi3b1xyhhaatuwb/0001_3_flat-style-illustration-showing-3-steps-_lQefnN1ARBWBHZbR5CRSzA_VBELL3UrTQW3T4_Zck9rcg.jpeg?rlkey=gbwn07zooqnw7c6ctm50iqthz" alt="3 steps">
+
+    <ol>
+      <li>Click the sign-up button</li>
+      <li>Fill out the form</li>
+      <li>Start working from home</li>
+    </ol>
+
+    <a class="cta-button" href="https://click2daff.com/click?o=3758&p=4918" target="_blank">🚀 Start Earning Now</a>
+
+    <div class="footer">
+      © 2025 WorkFromHomeUSA  
+      <br>
+      <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+    </div>
+  </div>
+
+  <script>
+    let timeLeft = 300;
+    const timer = document.getElementById('timer');
+    function updateCountdown() {
+      const minutes = Math.floor(timeLeft / 60);
+      const seconds = timeLeft % 60;
+      timer.textContent = `${String(minutes).padStart(2,'0')}:${String(seconds).padStart(2,'0')}`;
+      if (timeLeft > 0) {
+        timeLeft--;
+        setTimeout(updateCountdown, 1000);
+      }
+    }
+    updateCountdown();
+  </script>
+</body>
+</html>
